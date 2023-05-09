@@ -15,7 +15,7 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.00)
+# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.01)
 # Project Start Date: 11-11-2022 13:25
 # Project Complete Date: 11-18-2022 19:50
 # Project Update: 05-09-2023
