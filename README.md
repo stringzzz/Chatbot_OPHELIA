@@ -8,3 +8,5 @@ won't be saved. The conversation also outputs to 2 chatlog files. One is just th
 the conversations plus what OPHELIA is "thinking".
 
 The only required outside program is espeak. If you choose to not use this feature, simply comment out line 100.
+
+Update Version 0.01: OPHELIA now can recognize single terms from a user message, but only after OPHELIA has collected over 2000 words OPHELIA's emotion dictionary, and at least 500 learned reponses. Of course, if you choose to change this for your own purposes, it is easy, but it is recommended to only let that feature be activated after OPHELIA has learned a lot more. The reason is that if it is activated from the start, OPHELIA will not learn as many new responses, because terms from the user message will be detected instead, and will not activate her response learning code. Of course, this really opens the door for including even more, similar features, to be activated when OPHELIA learns even more.
