@@ -15,7 +15,7 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.01)
+# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.02)
 # Project Start Date: 11-11-2022 13:25
 # Project Complete Date: 11-18-2022 19:50
 # Project Update: 05-09-2023
@@ -40,6 +40,11 @@
 # 5. If no exact match, the user reply is checked to see if it partially matches a message 
 # in memory under the current mood of OPHELIA, and gives the matching response if found.
 #
+# 5.1 (Version 0.01) If no partial match, take the user message split into words, and ignoring neutral
+# words, check if any single word partial matches a message in memory.
+# This part only activates when OPHELIA has 2000 or more words in the emotion dictionary
+# AND 500 or more learned responses
+#
 # 6. No match, either overwrite old message/response pair, or learn new one with OPHELIA's
 # previous response as the message and the user reply as the response, stored under the
 # same emotion as the overall mood of the user reply.
@@ -51,6 +56,9 @@
 # a copy of OPHELIA and the matching starting memory files. After about a month of
 # each person talking to their copy, all of them would develop a different
 # personality with a unique set of memory.
+#
+# Version 0.02: Now OPHELIA keeps files for each user, making an educated guess on their usual
+# mood
 
 import random
 import re
@@ -66,7 +74,8 @@ speeds = {"happy": 150, "angry": 155, "sad": 135, "afraid": 155}
 userMessage = " "
 chatlog = []
 Xchatlog = []
-chatlogFile = {"regular": "/home/stringzzz/aChatbotOPHELIA/OPHELIAchatlog.txt", "extended": "/home/stringzzz/aChatbotOPHELIA/OPHELIAXchatlog.txt" }
+chatlogFile = {"regular": "OPHELIAchatlog.txt", "extended": "OPHELIAXchatlog.txt" }
+user_emotions = { "happy": 0, "angry": 0, "sad": 0, "afraid": 0 }
 
 def addToMood():
 	#Add the emotional values of the user reply to OPHELIA's emotional values
@@ -114,7 +123,7 @@ def chatlogOutput(chatlogFile, chatList):
 print("Inputting memory...")
 
 tempValues = []
-emotion_dictionary_file = open("/home/stringzzz/aChatbotOPHELIA/emotionDictionary.txt", 'r')
+emotion_dictionary_file = open("emotionDictionary.txt", 'r')
 for line in emotion_dictionary_file.readlines():
 	if line == "":
 		break
@@ -124,7 +133,7 @@ emotion_dictionary_file.close()
 
 gotPair = 0
 tempValues = []
-message_dictionary_file = open("/home/stringzzz/aChatbotOPHELIA/messageDictionary.txt", 'r')
+message_dictionary_file = open("messageDictionary.txt", 'r')
 for emotion in nEmotions:
 	messagesNo = int(message_dictionary_file.readline())
 	for messages in range(0, messagesNo):
@@ -148,6 +157,16 @@ print("Memory input complete!\n")
 #Get username
 botReply("What is your name? ")
 username = input("")
+username = re.sub(r"( )", "_", username)
+
+#Input the user file for the current user, if it exists
+try: 
+	user_file = open("" + username + ".txt", 'r')
+	for emotion in nEmotions:
+		user_emotions[emotion] = int(user_file.readline())
+	user_file.close()
+except(FileNotFoundError):
+	pass
 
 #Initial message
 OPHELIAPreviousResponse = "hello"
@@ -176,6 +195,7 @@ while userMessage != "//exit":
 		try:
 			if emotionDictionary[word] != "neutral":
 				replyMood[emotionDictionary[word]] += 1
+				user_emotions[emotionDictionary[word]] += 1
 				wordEmotions = wordEmotions + emotionDictionary[word] + " "
 			else: 
 				wordEmotions = wordEmotions + " neutral "
@@ -252,12 +272,12 @@ while userMessage != "//exit":
 #Output memory
 print("\nOutputting memory...")
 
-emotion_dictionary_file = open("/home/stringzzz/aChatbotOPHELIA/emotionDictionary.txt", 'w')
+emotion_dictionary_file = open("emotionDictionary.txt", 'w')
 for key in emotionDictionary.keys():
 	emotion_dictionary_file.write(key + " " + emotionDictionary[key] + "\n")
 emotion_dictionary_file.close()
 
-message_dictionary_file = open("/home/stringzzz/aChatbotOPHELIA/messageDictionary.txt", 'w')
+message_dictionary_file = open("messageDictionary.txt", 'w')
 for emotion in nEmotions:
 	message_dictionary_file.write(str(len(messageDict[emotion]) * 2) + "\n")
 	for key in messageDict[emotion].keys():
@@ -267,10 +287,17 @@ message_dictionary_file.close()
 chatlogOutput(chatlogFile["regular"], chatlog)
 chatlogOutput(chatlogFile["extended"], Xchatlog)
 
-data_file = open("/home/stringzzz/aChatbotOPHELIA/OPHELIAdata.txt", 'w')
+data_file = open("OPHELIAdata.txt", 'w')
 data_file.write(username + "\nWords in emotion dictionary: " + str(len(emotionDictionary)) + "\n")
 for emotion in nEmotions:
 	data_file.write("Number of " + emotion + " message/response pairs: " + str(len(messageDict[emotion])) + "\n")
 data_file.close()
+
+user_file = open("" + username + ".txt", 'w')
+for emotion in nEmotions:
+	user_file.write(str(user_emotions[emotion]) + "\n")
+user_overall_mood = getMood(user_emotions)
+user_file.write(username + " seems to be a(n) " + user_overall_mood + " person.")
+user_file.close()
 
 print("Memory output complete.\n")
