@@ -84,6 +84,21 @@ for line in emotion_dictionary_file.readlines():
 	emotionDictionary[tempValues[0]] = tempValues[1]
 emotion_dictionary_file.close()
 
+gotPair = 0
+tempValues = []
+message_dictionary_file = open("messageDictionary.txt", 'r')
+for emotion in nEmotions:
+	messagesNo = int(message_dictionary_file.readline())
+	for messages in range(0, messagesNo):
+		if gotPair < 2:
+			tempValues.append(message_dictionary_file.readline().strip())
+			gotPair += 1
+		if gotPair == 2:
+			messageDict[emotion][tempValues[0]] = tempValues[1]
+			tempValues.clear()
+			gotPair = 0
+message_dictionary_file.close()
+
 print("Memory input complete!\n")
 
 text_file_name = input("Enter the name of the text file to read: ")
@@ -111,7 +126,7 @@ try:
 			continue
 			
 		sentences += 1
-		print("Reading sentence " + str(sentences) + "/" + str(len(text_sentences)))
+		print("Reading sentence " + str(sentences) + "/" + str(len(text_sentences) - 1))
 	
 		#Filter out punctuation from sentence and split to list of words
 		sentenceWords = (re.sub(r"(\.|\?|\!|,)", "", sentence)).split(" ")
@@ -152,8 +167,11 @@ except(FileNotFoundError):
 print("Reading of text file complete.")
 print("\nOutputting memory...")
 
+dictionaryCounts = { "neutral": 0, "happy": 0, "angry": 0, "sad": 0, "afraid": 0 }
+nEmotions2 = ["neutral", "happy", "angry", "sad", "afraid"]
 emotion_dictionary_file = open("emotionDictionary.txt", 'w')
 for key in emotionDictionary.keys():
+	dictionaryCounts[emotionDictionary[key]] += 1
 	emotion_dictionary_file.write(key + " " + emotionDictionary[key] + "\n")
 emotion_dictionary_file.close()
 
@@ -161,7 +179,11 @@ chatlogOutput(chatlogFile["extended"], XsentenceLog)
 
 data_file = open("OPHELIAdata.txt", 'w')
 data_file.write("stringzzz\nWords in emotion dictionary: " + str(len(emotionDictionary)) + "\n")
+for emotion in nEmotions:
+	data_file.write("Number of " + emotion + " message/response pairs: " + str(len(messageDict[emotion])) + "\n")
+for emotion in nEmotions2:
+	data_file.write(emotion + " words in dictionary: " + str(dictionaryCounts[emotion]) + "\n")
+data_file.close()
 #Note, number of responses not output, but it will be added properly the next time you run OPHELIA and '//exit'
 
 print("Memory output complete.\n")
-
