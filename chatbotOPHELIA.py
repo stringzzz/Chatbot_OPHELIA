@@ -15,10 +15,11 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.02)
+# Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Version 1.03)
 # Project Start Date: 11-11-2022 13:25
 # Project Complete Date: 11-18-2022 19:50
 # Project Update: 05-09-2023
+# Version 1.03 Update: 05-11-2023
 
 # When the user gives a reply to this bot, the following is done in order:
 #
@@ -40,7 +41,7 @@
 # 5. If no exact match, the user reply is checked to see if it partially matches a message 
 # in memory under the current mood of OPHELIA, and gives the matching response if found.
 #
-# 5.1 (Version 0.01) If no partial match, take the user message split into words, and ignoring neutral
+# 5.1 (Version 1.01) If no partial match, take the user message split into words, and ignoring neutral
 # words, check if any single word partial matches a message in memory.
 # This part only activates when OPHELIA has 2000 or more words in the emotion dictionary
 # AND 500 or more learned responses
@@ -57,8 +58,11 @@
 # each person talking to their copy, all of them would develop a different
 # personality with a unique set of memory.
 #
-# Version 0.02: Now OPHELIA keeps files for each user, making an educated guess on their usual
+# Version 1.02: Now OPHELIA keeps files for each user, making an educated guess on their usual
 # mood
+#
+# Version 1.03: OPHELIA now keeps track of the separate counts of different emotion words in
+# the emotion dictionary
 
 import random
 import re
@@ -192,6 +196,8 @@ while userMessage != "//exit":
 
 	wordEmotions = ""
 	for word in messageWords:
+		if word == '':
+			continue
 		try:
 			if emotionDictionary[word] != "neutral":
 				replyMood[emotionDictionary[word]] += 1
@@ -236,7 +242,7 @@ while userMessage != "//exit":
 		
 	#Check for single term match under current mood, ignore neutral words
 	#Only activated when she has learned enough, though this can easily be adjusted
-	if (dictionaryCount >= 2000 and responseCount >= 500):
+	if ((dictionaryCount >= 2000 and responseCount >= 500 and random.randint(1, 4) == 1) or (dictionaryCount >= 3000 and responseCount >= 850 and random.randint(1, 3) == 1) or (dictionaryCount >= 3600 and responseCount >= 1100 and random.randint(1, 2) == 1)):
 		responseMade = False
 		for word in messageWords:
 			try:
@@ -272,8 +278,11 @@ while userMessage != "//exit":
 #Output memory
 print("\nOutputting memory...")
 
+dictionaryCounts = { "neutral": 0, "happy": 0, "angry": 0, "sad": 0, "afraid": 0 }
+nEmotions2 = ["neutral", "happy", "angry", "sad", "afraid"]
 emotion_dictionary_file = open("emotionDictionary.txt", 'w')
 for key in emotionDictionary.keys():
+	dictionaryCounts[emotionDictionary[key]] += 1
 	emotion_dictionary_file.write(key + " " + emotionDictionary[key] + "\n")
 emotion_dictionary_file.close()
 
@@ -291,6 +300,8 @@ data_file = open("OPHELIAdata.txt", 'w')
 data_file.write(username + "\nWords in emotion dictionary: " + str(len(emotionDictionary)) + "\n")
 for emotion in nEmotions:
 	data_file.write("Number of " + emotion + " message/response pairs: " + str(len(messageDict[emotion])) + "\n")
+for emotion in nEmotions2:
+	data_file.write(emotion + " words in dictionary: " + str(dictionaryCounts[emotion]) + "\n")
 data_file.close()
 
 user_file = open("" + username + ".txt", 'w')
