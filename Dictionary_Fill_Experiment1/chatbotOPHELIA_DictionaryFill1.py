@@ -20,6 +20,7 @@
 
 # Chatbot OPHELIA: Original Python Heavenly Emotion Logic Inspecting Automator (Dictionary Filler)
 # Dictionary Fill Experiment 1: 05-10-2023
+# Update: 05-11-2023
 
 import random
 import re
@@ -184,6 +185,5 @@ for emotion in nEmotions:
 for emotion in nEmotions2:
 	data_file.write(emotion + " words in dictionary: " + str(dictionaryCounts[emotion]) + "\n")
 data_file.close()
-#Note, number of responses not output, but it will be added properly the next time you run OPHELIA and '//exit'
 
 print("Memory output complete.\n")
