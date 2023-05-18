@@ -138,6 +138,8 @@ try:
 
 		wordEmotions = ""
 		for word in sentenceWords:
+			if word == '':
+				continue
 			try:
 				if emotionDictionary[word] != "neutral":
 					replyMood[emotionDictionary[word]] += 1
