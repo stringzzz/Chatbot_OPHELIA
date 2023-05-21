@@ -1,0 +1,15 @@
+
+
+
+05/20/2023, 08:09:33
+Phoebe: What is your name? 
+Phoebe: hello, stringzzz
+
+stringzzz: ola
+Word emotions in previous reply: happy 
+Phoebe (Thinking): stringzzz seems to be happy
+Phoebe (Thinking): I feel happy
+Phoebe (Thinking): Exact message match found.
+Phoebe: no intiendo
+
+stringzzz: //exit

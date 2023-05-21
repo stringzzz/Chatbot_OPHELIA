@@ -1,0 +1,224 @@
+
+
+
+05/11/2023, 09:58:30
+
+Word emotions in previous sentence:  unknown happy happy  neutral happy  neutral happy happy  unknown happy  neutral happy  neutral  unknown  neutral happy  neutral happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['stringzzz', 'person', 'wanting']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  neutral happy happy happy happy sad 
+OPHELIA (Thinking): The sentence seems to be happy
+
+Word emotions in previous sentence:  neutral happy  neutral sad sad sad sad sad sad sad  unknown  unknown happy  neutral sad happy  neutral happy  unknown happy  neutral sad happy  neutral  neutral  unknown  unknown  unknown  neutral happy  unknown 
+OPHELIA (Thinking): The sentence seems to be sad
+OPHELIA (Thinking): Unknown words detected: ['tearful', 'meloncholy', 'sadly', 'often', 'cried', 'tears', 'sadness']
+OPHELIA (Thinking): Learned unknown words as 'sad' words.
+
+Word emotions in previous sentence:  neutral happy sad  neutral happy happy  unknown happy happy happy happy  neutral sad  neutral angry sad sad sad sad sad sad sad sad sad sad  neutral  neutral  unknown happy  unknown happy  neutral angry sad happy  neutral happy sad happy  neutral sad 
+OPHELIA (Thinking): The sentence seems to be sad
+OPHELIA (Thinking): Unknown words detected: ['hurt', 'had', 'pain']
+OPHELIA (Thinking): Learned unknown words as 'sad' words.
+
+Word emotions in previous sentence:  neutral happy  neutral sad  unknown sad sad sad sad sad sad sad sad sad  neutral happy afraid  neutral  unknown  unknown happy happy  neutral happy  neutral sad sad  unknown happy happy sad happy sad sad  neutral sad sad sad sad sad 
+OPHELIA (Thinking): The sentence seems to be sad
+OPHELIA (Thinking): Unknown words detected: ['tearfully', 'many', 'problems', 'crying']
+OPHELIA (Thinking): Learned unknown words as 'sad' words.
+
+Word emotions in previous sentence:  neutral happy afraid  neutral afraid happy happy  neutral happy  neutral afraid  neutral  neutral happy happy  neutral afraid  neutral  neutral happy  neutral happy  unknown happy afraid  neutral afraid  neutral  unknown  unknown  neutral  neutral  unknown  neutral afraid  unknown  neutral  unknown afraid afraid afraid afraid afraid afraid afraid afraid afraid afraid afraid happy 
+OPHELIA (Thinking): The sentence seems to be afraid
+OPHELIA (Thinking): Unknown words detected: ['shaking', 'fearfully', 'dreadful', 'felt', 'throughout', 'whole']
+OPHELIA (Thinking): Learned unknown words as 'afraid' words.
+
+Word emotions in previous sentence:  neutral afraid  neutral happy afraid afraid afraid afraid afraid afraid afraid happy  unknown happy  neutral angry angry happy  neutral  neutral  unknown happy  neutral happy  neutral  neutral angry  neutral  unknown  neutral  unknown happy happy angry angry angry angry angry angry angry angry angry angry  neutral happy  neutral angry  neutral  unknown happy happy  unknown  neutral angry angry angry angry angry angry angry angry angry angry angry angry happy  neutral angry angry angry angry  unknown happy  neutral happy  unknown  unknown  neutral happy  unknown angry angry angry angry angry happy happy happy 
+OPHELIA (Thinking): The sentence seems to be angry
+OPHELIA (Thinking): Unknown words detected: ['led', "didn't", 'full', 'rage', 'ticked', 'flames', 'trickling', 'boiling', 'rage', 'brutal']
+OPHELIA (Thinking): Learned unknown words as 'angry' words.
+
+Word emotions in previous sentence:  unknown  unknown happy  unknown happy happy happy  neutral angry angry angry  neutral angry angry angry angry angry angry angry angry angry angry angry  unknown angry  neutral angry  neutral angry happy happy  unknown angry angry  neutral angry happy happy  neutral 
+OPHELIA (Thinking): The sentence seems to be angry
+OPHELIA (Thinking): Unknown words detected: ['racism', 'abuse', 'bullying', 'dreadfully', 'stronger']
+OPHELIA (Thinking): Learned unknown words as 'angry' words.
+
+Word emotions in previous sentence: happy happy  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['learned']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral happy  neutral  unknown  unknown  neutral angry happy  neutral happy  neutral happy  neutral happy  neutral happy  neutral  unknown sad happy  neutral sad  unknown  unknown happy happy happy  neutral  neutral  neutral  unknown  unknown happy happy happy  neutral  unknown  neutral happy happy  neutral  unknown  neutral happy happy happy happy happy happy  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['put', 'aside', 'longer', 'grown', 'brilliantly', "couldn't", 'contain', 'enthusiastic', 'world', 'joyous']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  neutral  unknown  neutral happy happy  neutral happy  unknown angry  neutral  unknown happy happy happy happy happy sad happy happy happy happy happy happy happy happy happy  neutral angry happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['saw', 'place', 'radiant', '']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy happy happy  neutral  unknown  neutral  neutral happy  unknown happy  neutral happy happy  neutral happy happy  neutral angry  unknown  neutral angry  unknown  neutral happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy angry  neutral  unknown  neutral happy happy  neutral sad  neutral happy happy happy  neutral happy happy happy  neutral  neutral happy happy  unknown happy  neutral happy happy  unknown happy  neutral happy happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['recognized', "wasn't", 'prevent', 'smiling', 'wonder', 'become', 'headed']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+
+05/12/2023, 08:29:49
+
+Word emotions in previous sentence: happy sad  neutral sad sad  neutral  neutral happy  unknown happy  neutral happy  neutral sad  unknown afraid  unknown  unknown  neutral sad  neutral angry sad  neutral sad happy  neutral  neutral  unknown  unknown  neutral  unknown  unknown sad happy happy  unknown sad  neutral sad  neutral happy  neutral angry angry sad sad sad sad sad sad sad sad sad sad 
+OPHELIA (Thinking): The sentence seems to be sad
+OPHELIA (Thinking): Unknown words detected: ['thrown', 'joe', 'dismally', 'wretched', 'desolate', 'ruins', 'downhearted', 'sorrow', 'suffering']
+OPHELIA (Thinking): Learned unknown words as 'sad' words.
+
+Word emotions in previous sentence:  neutral sad happy happy sad happy  neutral  unknown happy happy happy  neutral sad sad  unknown sad  neutral happy  unknown  unknown  neutral  neutral  unknown sad  unknown  neutral sad  unknown  neutral  neutral  unknown  unknown sad  neutral  unknown  neutral  neutral happy  unknown  neutral  neutral sad happy  neutral  neutral happy  neutral  unknown  unknown  unknown  unknown  neutral  neutral happy sad sad sad sad sad sad sad sad sad 
+OPHELIA (Thinking): The sentence seems to be sad
+OPHELIA (Thinking): Unknown words detected: ['rainy', 'melancholic', 'inconsolable', 'due', 'tragic', 'tragedy', 'befallen', 'traumatic', 'upsetting', 'plagued', 'infection', 'miserable', 'disgraceful', 'agonizing', 'personifications']
+OPHELIA (Thinking): Learned unknown words as 'sad' words.
+
+Word emotions in previous sentence:  neutral  unknown happy happy  unknown happy  neutral  unknown  neutral  unknown happy happy  neutral angry  neutral angry  unknown  neutral angry angry  unknown angry  unknown  neutral  neutral  unknown  neutral  neutral  unknown  unknown  neutral happy  neutral  neutral angry  neutral angry  neutral angry angry angry angry angry angry  neutral angry  neutral angry  neutral angry angry angry angry angry angry angry angry  neutral angry angry 
+OPHELIA (Thinking): The sentence seems to be angry
+OPHELIA (Thinking): Unknown words detected: ['started', 'annoyance', 'grew', 'irritation', 'outrage', 'stemming', 'resentment', 'displeasure', 'irked', 'john']
+OPHELIA (Thinking): Learned unknown words as 'angry' words.
+
+Word emotions in previous sentence:  neutral happy  unknown  neutral  unknown  neutral happy angry  neutral  unknown  unknown  neutral  unknown  neutral  neutral  unknown happy happy angry angry  neutral angry angry angry angry  neutral  unknown happy happy happy  neutral  neutral  neutral  unknown  neutral angry happy  unknown happy happy sad happy  neutral  unknown happy  unknown happy  unknown  unknown  neutral  unknown  neutral  neutral happy happy happy happy happy  neutral  unknown  unknown  neutral angry  unknown  neutral happy  neutral  neutral  unknown  unknown  neutral  unknown  neutral  unknown  neutral happy happy happy angry  neutral angry angry angry angry angry  unknown angry angry  neutral happy  neutral angry  neutral happy  neutral happy happy happy happy  neutral happy angry  neutral angry angry angry angry  neutral angry  neutral angry  neutral angry  neutral angry happy  neutral  unknown  neutral happy angry happy  unknown happy  neutral happy happy happy  unknown  neutral angry angry angry angry  neutral happy  neutral angry angry angry  neutral angry angry angry angry angry angry angry angry angry angry angry angry angry angry angry angry angry angry 
+OPHELIA (Thinking): The sentence seems to be angry
+OPHELIA (Thinking): Unknown words detected: ['served', 'infuriate', 'irritability', 'enraging', 'displeasing', 'temper', 'aggravation', 'pot', 'screaming', 'bubbled', 'provoking', 'himself', 'maddening', 'inflaming', 'control', 'ruffling', 'ticking', 'lit', 'bomb', 'bugged', 'bugged', 'rageful', 'cease', 'intensity', 'ocean']
+OPHELIA (Thinking): Learned unknown words as 'angry' words.
+
+Word emotions in previous sentence:  neutral  unknown  unknown happy  unknown happy afraid happy afraid happy happy  neutral  neutral  neutral afraid  neutral afraid happy  unknown happy happy angry  unknown  neutral afraid  neutral  neutral  neutral afraid afraid happy happy  neutral afraid  neutral happy afraid  neutral happy  neutral afraid  neutral angry afraid afraid  neutral afraid afraid  neutral  neutral afraid  neutral happy  neutral happy happy happy happy happy  neutral angry  neutral afraid afraid afraid afraid afraid afraid afraid afraid afraid afraid afraid afraid  neutral happy afraid afraid afraid afraid 
+OPHELIA (Thinking): The sentence seems to be afraid
+OPHELIA (Thinking): Unknown words detected: ['recluse', 'matt', 'hiding', 'fed', 'alarm']
+OPHELIA (Thinking): Learned unknown words as 'afraid' words.
+
+Word emotions in previous sentence:  neutral afraid  unknown  neutral  neutral afraid  unknown happy happy  neutral  unknown happy  unknown  neutral  neutral  neutral  unknown  neutral  unknown angry  neutral  unknown happy  neutral afraid happy happy  unknown  neutral happy  neutral  unknown afraid  neutral afraid afraid afraid afraid  neutral afraid  neutral angry angry angry afraid angry afraid  neutral afraid angry afraid  neutral  unknown  neutral afraid  neutral afraid  neutral  unknown happy happy happy happy  neutral afraid afraid  neutral angry afraid afraid afraid afraid afraid  neutral afraid afraid afraid afraid  neutral angry afraid  neutral afraid afraid afraid afraid  neutral happy afraid  neutral  neutral happy  neutral angry afraid  neutral afraid afraid afraid afraid 
+OPHELIA (Thinking): The sentence seems to be afraid
+OPHELIA (Thinking): Unknown words detected: ['doom', 'crept', 'deleted', 'trace', 'tried', 'delete', 'did', 'strong', 'waking', 'paranoia', 'nerves']
+OPHELIA (Thinking): Learned unknown words as 'afraid' words.
+
+
+05/18/2023, 07:50:39
+
+Word emotions in previous sentence: happy happy  neutral  neutral happy happy happy happy happy happy  neutral happy  neutral happy  neutral happy  neutral  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+
+Word emotions in previous sentence: happy happy  neutral happy  neutral  neutral  unknown  unknown happy  neutral happy happy happy happy happy  unknown  neutral  neutral happy  unknown  neutral  neutral happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['broken', 'dam', 'slam', 'battlefield', 'yield']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  unknown  neutral happy  unknown happy happy happy  unknown  neutral  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['fortunes', 'cards', 'shards']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy happy  unknown  neutral happy happy  unknown happy  neutral  unknown happy  neutral happy happy  neutral  neutral  neutral  unknown  neutral happy  unknown  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['switch', 'drowsee', 'house', 'brim', 'quit', 'vim']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  neutral  neutral happy happy angry  neutral happy  neutral  neutral happy happy  neutral happy happy 
+OPHELIA (Thinking): The sentence seems to be happy
+
+Word emotions in previous sentence:  unknown happy happy happy  neutral  unknown  neutral happy  neutral  unknown happy happy  neutral happy happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ["hypno's", "i'll", 'sleepy']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  neutral  neutral happy happy  neutral  unknown  neutral  unknown  unknown  unknown happy  neutral  unknown  unknown  neutral  neutral  neutral  unknown  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['phat', 'tax', 'toll', 'rare', 'candies', 'bowl', 'burying', 'diglett', 'hole']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  unknown happy happy happy  neutral  unknown  neutral happy  unknown happy  neutral  unknown  neutral  neutral  unknown happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['arceus', 'straight', 'status', 'fake', 'sudowoodo']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  neutral  unknown happy happy happy  neutral  unknown  neutral  neutral  unknown happy  unknown  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['master', 'rapper', 'leech', 'health', 'sapper']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  neutral happy  unknown  unknown  unknown  neutral happy happy happy happy  neutral happy happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['protect', 'screen', "won't", 'stop']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral  neutral  unknown happy happy  unknown  neutral  unknown  unknown  unknown happy happy  unknown  neutral  neutral happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['charge', 'loose', 'giga', 'impact', 'leaving', 'intact']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown happy  unknown  unknown  neutral  neutral happy  neutral  unknown  unknown  unknown happy  neutral happy  neutral happy happy happy happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['losing', 'type', 'matchup', 'rock', 'paper', 'scissors']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  unknown  unknown  neutral happy  unknown  unknown  neutral  unknown  neutral happy happy  unknown  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['tame', 'wild', 'annihilape', 'rewind', 'tape', 'wears', 'cape']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown happy  neutral  unknown  unknown  neutral  unknown happy happy  neutral  neutral  neutral happy happy happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['ninja', 'lucario', 'save', 'kingdom']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy happy happy happy  neutral  unknown happy angry happy happy  neutral  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['release', 'crease']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral  neutral happy happy  neutral happy happy happy happy  neutral  neutral  neutral happy  neutral happy  neutral  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['certain']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy  neutral happy  unknown happy happy happy  neutral happy happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['confident', 'cute']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  unknown  neutral  neutral  unknown happy  neutral  unknown  neutral  unknown  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['dodging', 'blows', 'disguise', 'attacks', 'itty', 'bitty']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral  neutral  neutral  unknown  unknown happy  unknown  neutral  neutral happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['mosquito', 'biting', 'ursaring']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  neutral  unknown  neutral  unknown  neutral  unknown  neutral  neutral  unknown  unknown  neutral  neutral  unknown happy  neutral  unknown happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['', 'fling', 'item', 'hits', 'sing', 'puts', 'sleep', 'cut']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  neutral happy  neutral  neutral  unknown happy  neutral  unknown happy  neutral happy happy angry  neutral  unknown happy happy happy  neutral happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['follow', 'mareep', 'seep', 'norm', 'storm']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral  unknown happy  neutral  unknown  neutral  neutral happy happy  unknown  unknown happy  neutral  unknown happy  neutral happy happy  neutral happy 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['hide', 'shelter', 'gone', 'berzerk', 'stay']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  unknown  neutral  unknown  neutral  neutral  unknown happy  neutral  unknown happy happy happy  neutral  neutral  unknown  neutral  unknown sad  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['testing', 'waters', 'scientist', 'microscope', 'cope', 'slide', 'slope']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral happy happy  unknown angry happy happy afraid  unknown happy  neutral  neutral  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['upward', 'reading', 'seer']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence:  neutral happy  neutral  unknown happy  neutral  neutral happy  unknown happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['m-c', 'rappers', 'lousy']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
+
+Word emotions in previous sentence: happy happy happy happy  neutral afraid  neutral  unknown  neutral  neutral happy  neutral happy  unknown 
+OPHELIA (Thinking): The sentence seems to be happy
+OPHELIA (Thinking): Unknown words detected: ['remember', 'shout']
+OPHELIA (Thinking): Learned unknown words as 'happy' words.
