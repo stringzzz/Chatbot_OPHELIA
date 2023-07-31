@@ -1,0 +1,11 @@
+stringzzz
+Words in emotion dictionary: 2020
+Number of happy message/response pairs: 501
+Number of angry message/response pairs: 16
+Number of sad message/response pairs: 8
+Number of afraid message/response pairs: 4
+neutral words in dictionary: 63
+happy words in dictionary: 1690
+angry words in dictionary: 115
+sad words in dictionary: 84
+afraid words in dictionary: 68
