@@ -1,6 +1,0 @@
-stringzzz
-Words in emotion dictionary: 958
-Number of happy message/response pairs: 173
-Number of angry message/response pairs: 14
-Number of sad message/response pairs: 4
-Number of afraid message/response pairs: 3
